@@ -3,8 +3,8 @@
   width: 500px;
   opacity: 0;
   z-index: 2;
-  background: blue;
-  border-top: 2px solid white;
+  background: var(--bg-dropdown);
+  border-top: 2px solid var(--border-color);
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
   display: flex;
@@ -27,7 +27,7 @@
 
   &_item a::before {
     content: ' ';
-    border: 2px solid white;
+    border: 2px solid var(--border-color);
     border-radius: 50%;
     width: 2rem;
     height: 2rem;

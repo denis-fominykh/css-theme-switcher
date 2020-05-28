@@ -1,8 +1,8 @@
 .navbar {
   height: 70px;
   width: 100%;
-  background: black;
-  color: white;
+  background: var(--bg-nav);
+  color: var(--text);
 
   &_nav {
     display: flex;
